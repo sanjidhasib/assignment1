@@ -324,7 +324,7 @@
     align-items: center;
 }
 footer{
-    width: 100%;
+     width: 1600px;
         height: 609px;
         background-color: #070211;
         margin-top: 120px;
@@ -340,7 +340,7 @@ footer{
 .last{
     display: flex;
     justify-content: space-between;
-    gap: 500px; 
+    gap: 600px; 
     padding-top: 120px;
     padding-left: 140px;
     padding-right: 270px;
@@ -356,10 +356,11 @@ footer{
 }
 #horizontal{
     
-        width: 1320px;
-        height: 1px;
+        /* width: 1320px; */
+        height: .5px;
         background: rgba(255, 255, 255, 0.15);
-        margin: 0 140px;    
+        margin:0 140px;
+           
 }
 
 .icons{
@@ -382,7 +383,7 @@ footer{
     margin-top: 40px;
     margin-bottom: 120px;
     padding-left: 140px;
-    margin-right: 140px;
+    padding-right: 140px;
 }
 
 
