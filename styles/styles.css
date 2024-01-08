@@ -163,19 +163,15 @@
 }
 
 
-.join {
+.join{
     width: 83%;
     max-width: 1320px;
     height: 482px;
     background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border-radius: 16px;
     margin-top: 120px; 
-    /* margin-bottom: 50px; */
     margin-left: 10.6%;
     margin-right: 10.6%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .li{
@@ -228,11 +224,13 @@
         justify-content: space-around;
     }
 .round img{
-    height: 483px;
-    width: 483px;
-    border-radius: 463px;
+    height: 364px;
+    width: 364px;
+    border-radius: 364px;
     border: 15px solid #F00;
+    padding: 49px;
 }
+
 .offer{
     justify-content: center; 
     padding-top: 104px;
@@ -309,6 +307,86 @@
     transform: scale(1.1);
     z-index: 0.5;
 }
+.msg{
+    width: 83%;
+        max-width: 1320px;
+        height: 616px;
+        background: rgba(255, 0, 0, 0.05);
+        border-radius: 16px;
+        margin-top: 120px;
+        margin-left: 10.6%;
+        margin-right: 10.6%;       
+}
+
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    width: 100%;
+        height: 609px;
+        background-color: #070211;
+        margin-top: 120px;
+}
+.F{
+    color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    gap: 500px; 
+    padding-top: 120px;
+    padding-left: 140px;
+    padding-right: 270px;
+    margin-bottom: 50px;
+    
+}
+
+.ph, .web{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+#horizontal{
+    
+        width: 1320px;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.15);
+        margin: 0 140px;
+        
+}
+
+.icons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 24px;
+   margin:48px 640px;
+   cursor: pointer;
+   transition: .1s;
+}
+.icons>img:hover{
+    transform: scale(1.1);
+    z-index: .05;
+}
+.last1{
+    display: flex;
+    justify-content: space-between;
+    gap: 880px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    padding-left: 140px;
+    margin-right: 140px;
+    padding-right: 80px;
+}
+
 
 
 
