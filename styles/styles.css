@@ -359,8 +359,7 @@ footer{
         width: 1320px;
         height: 1px;
         background: rgba(255, 255, 255, 0.15);
-        margin: 0 140px;
-        
+        margin: 0 140px;    
 }
 
 .icons{
@@ -384,7 +383,6 @@ footer{
     margin-bottom: 120px;
     padding-left: 140px;
     margin-right: 140px;
-    padding-right: 80px;
 }
 
 
