@@ -1,9 +1,14 @@
 
-/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap'); */
-
 *{
     margin: 0;
     padding: 0;
+}
+.paragraph{
+        font-family: 'Inter', sans-serif;
+        color: rgba(7, 2, 17, 0.60);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 32px;
 }
 
 #container{
@@ -82,7 +87,7 @@
 
 }
 
-.sale .topic h4 {
+.sale .topic .deal {
         color: #F00;
         text-align: center;
         font-family: Inter;
@@ -203,3 +208,109 @@
         line-height: 56px;
         text-transform: capitalize;
 }
+
+.best{
+    width: 83%;
+        max-width: 1320px;
+        height: 463px;
+        border-radius: 16px;
+        margin-top: 120px;
+        margin-left: 10.6%;
+        margin-right: 10.6%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.best .main{
+        display: flex; 
+        align-items: center;
+        justify-content: space-around;
+    }
+.round img{
+    height: 483px;
+    width: 483px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+.offer{
+    justify-content: center; 
+    padding-top: 104px;
+    padding-bottom: 104px;
+    padding-right: 70px;
+
+}
+.new{
+    justify-content: center;
+    padding-top: 112px;
+    padding-left: 118px;
+}
+.l{
+    color: #F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+.all{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 22px;
+}
+.Right-side{
+        color: #F00;
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;    
+}
+#p{
+    margin-top: 16px;
+    margin-bottom: 43px;
+
+    text-align: left;
+    width: 276px;
+}
+#a{
+    width: 393px;
+    text-align: left;
+}
+#p2{
+    width: 896px;
+    padding-bottom: 48px;
+}
+
+.portfolio {
+    width: 83%;
+    max-width: 1320px;
+    margin-top: 120px;
+    margin-left: 10.6%;
+    margin-right: 10.6%;
+}
+.imghead1{
+    display: flex;
+    gap: 24px;
+    padding-bottom: 24px;
+}
+.imghead2{
+        display: flex;
+        gap: 24px;
+}
+.i{
+    cursor: pointer;
+    transition: .5s;
+}
+.i:hover{
+    transform: scale(1.1);
+    z-index: 0.5;
+}
+
+
+
+
+
