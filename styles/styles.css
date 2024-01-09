@@ -175,12 +175,13 @@
 }
 
 .li{
-    padding: 100px 380px;
+    padding: 100px 385px;
 }
 
 
 .p1{
      color: #070211;
+        width: 560px;
         height: 168px;
         font-family: Inter;
         font-size: 32px;
